@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MODUSREM | Kontakt</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="assets/img/logo-modusrem.webp" />
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo logo-combo">
+      <img src="assets/img/logo-modusrem.webp" alt="Modus Rem Logo" />
+      <div class="logo-text">
+        <span class="logo-main">MODUSREM</span>
+        <span class="logo-sub">DIZAJN ENTERIJERA</span>
+      </div>
+    </a>
+    <nav class="nav">
+      <button class="nav-toggle" id="navToggle">☰</button>
+      <ul class="nav-list" id="navList">
+        <li><a href="index.html">Početna</a></li>
+        <li><a href="services.html">Usluge</a></li>
+        <li><a href="contact.html" class="active">Kontakt</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <h1>Kontakt</h1>
+      <p>
+        Pošaljite nam upit, krojni list ili crtež. Odgovorićemo u najkraćem roku
+        sa konkretnim predlogom sledećih koraka.
+      </p>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="container contact-layout">
+      <div>
+        <h2 class="section-title">Podaci za kontakt</h2>
+        <p class="section-subtitle">
+          Možete nas kontaktirati putem forme, e-maila ili direktno telefonom.
+        </p>
+        <ul class="contact-list">
+          <li>Email: <a href="mailto:info@modusrem.com">info@modusrem.com</a></li>
+          <li>Telefon: <a href="tel:+381603200443">+381603200443</a></li>
+          <li>Lokacija: Beograd, Srbija</li>
+        </ul>
+        <div class="google-map">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2834.205781688006!2d20.538293!3d44.8599936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7a6899d32285%3A0x45bc4aeacd972d87!2sMODUS%20REM!5e0!3m2!1ssr!2srs!4v1732125345589!5m2!1ssr!2srs" 
+              width="100%" 
+              height="350" 
+              style="border:0; border-radius: 12px;"
+              allowfullscreen="" 
+              loading="lazy">
+            </iframe>
+          </div>          
+          Ovde može ići screenshot lokacije ili ugrađena Google mapa.
+        </div>
+      </div>
+
+      <form class="contact-form" action="send-mail.php" method="post">
+        <div class="form-row">
+          <label for="name">Ime / Firma</label>
+          <input type="text" id="name" name="name" placeholder="Vaše ime ili studio" required />
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required />
+        </div>
+        <div class="form-row">
+          <label for="message">Poruka / Projekat</label>
+          <textarea id="message" name="message" rows="4" placeholder="Kratak opis projekta..." required></textarea>
+        </div>
+        <button type="submit" class="btn primary">Pošalji poruku</button>
+      </form>
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <span>&copy; <span id="year"></span> MODUS REM · CODEX</span>
+    <span class="footer-note">Telefon: +381600255461 · Dizajn &amp; implementacija: MODUSREM</span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
+
+  
