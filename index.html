@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ModusRem — design-forward digital experiences built for momentum.">
+  <title>ModusRem | Digital Momentum</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Manrope:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="nav__brand">ModusRem</div>
+    <nav class="nav__links">
+      <a href="#services">Services</a>
+      <a href="#process">Process</a>
+      <a href="#gallery">Work</a>
+      <a class="button button--ghost" href="mailto:hello@modusrem.com">Let’s talk</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero__text">
+        <div class="pill">Design-forward digital experiences</div>
+        <h1>Build momentum with a modern, vivid brand presence.</h1>
+        <p>We craft striking interfaces, story-driven visuals, and smooth user journeys so your product feels effortless from first click to checkout.</p>
+        <div class="hero__actions">
+          <a class="button" href="mailto:hello@modusrem.com">Book a discovery call</a>
+          <a class="button button--ghost" href="#gallery">See recent work</a>
+        </div>
+        <div class="stat-grid">
+          <div>
+            <p class="stat">120+</p>
+            <p class="muted">projects launched</p>
+          </div>
+          <div>
+            <p class="stat">4.9★</p>
+            <p class="muted">average satisfaction</p>
+          </div>
+          <div>
+            <p class="stat">42%</p>
+            <p class="muted">avg. lift in conversions</p>
+          </div>
+        </div>
+      </div>
+      <div class="hero__visual">
+        <div class="glass-card">
+          <h3>Momentum Dashboard</h3>
+          <p>Track the story of your product at a glance with clean, contrasty visualizations.</p>
+          <div class="chart">
+            <div class="bar" style="height: 60%"></div>
+            <div class="bar" style="height: 78%"></div>
+            <div class="bar" style="height: 95%"></div>
+            <div class="bar" style="height: 72%"></div>
+            <div class="bar" style="height: 88%"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="section__header">
+        <div class="pill">What we do</div>
+        <h2>Design, launch, and scale with confidence.</h2>
+        <p class="muted">Full-stack creative support—from naming and visual identity to production-grade engineering and growth analytics.</p>
+      </div>
+      <div class="card-grid">
+        <article class="card">
+          <div class="icon">🎨</div>
+          <h3>Brand & Identity</h3>
+          <p>Vibrant palettes, expressive typography, and modular systems that flex across web, mobile, and print.</p>
+        </article>
+        <article class="card">
+          <div class="icon">🛠️</div>
+          <h3>Product Experience</h3>
+          <p>UX research, prototyping, and production-ready interfaces that prioritize clarity, speed, and accessibility.</p>
+        </article>
+        <article class="card">
+          <div class="icon">🚀</div>
+          <h3>Go-to-Market</h3>
+          <p>Campaign creative, landing pages, and CRM flows engineered to convert and keep customers engaged.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="process" class="section section--secondary">
+      <div class="section__header">
+        <div class="pill">How we work</div>
+        <h2>A clear path to launch</h2>
+        <p class="muted">An agile cadence that keeps you in the loop while we deliver bold visuals and measurable outcomes.</p>
+      </div>
+      <div class="timeline">
+        <div class="timeline__step">
+          <span class="step">01</span>
+          <div>
+            <h3>Strategy Sprint</h3>
+            <p>Align on goals, voice, and audience. We map the journey and define success metrics together.</p>
+          </div>
+        </div>
+        <div class="timeline__step">
+          <span class="step">02</span>
+          <div>
+            <h3>Design Systems</h3>
+            <p>Produce high-fidelity visuals, UI kits, and component libraries that scale with your roadmap.</p>
+          </div>
+        </div>
+        <div class="timeline__step">
+          <span class="step">03</span>
+          <div>
+            <h3>Launch & Iterate</h3>
+            <p>Ship, measure, and optimize. We tune conversions, performance, and narrative as you grow.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section">
+      <div class="section__header">
+        <div class="pill">Recent visuals</div>
+        <h2>Swap in your own imagery via GitHub uploads.</h2>
+        <p class="muted">Add new assets to <code>assets/uploads</code> and update <code>gallery.json</code> to refresh this section automatically on deploy.</p>
+      </div>
+      <div class="gallery" id="gallery-grid" aria-live="polite"></div>
+      <div class="notice">
+        <strong>Tip:</strong> Use GitHub’s web UI to upload new images into <code>assets/uploads</code> and list them in <code>gallery.json</code>—no build tools required.
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <h3>Let’s build your next chapter.</h3>
+      <p class="muted">Email us at <a href="mailto:hello@modusrem.com">hello@modusrem.com</a> to start.</p>
+    </div>
+    <div class="footer__actions">
+      <a class="button" href="mailto:hello@modusrem.com">Start a project</a>
+      <a class="button button--ghost" href="#services">Explore services</a>
+    </div>
+  </footer>
+
+  <script src="scripts/main.js" type="module"></script>
+</body>
+</html>
